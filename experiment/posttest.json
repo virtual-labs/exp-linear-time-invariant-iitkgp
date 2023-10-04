@@ -2,12 +2,29 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "Decoder is a",
+      "question": "What is the rule h*(x+y) = (y+x)*h called?",
       "answers": {
-        "a": "sequential circuit",
-        "b": "complex circuit",
-        "c": "combinational circuit",
-        "d": "gate"
+        "a": "Commutativity rule",
+        "b": "Associativity rule",
+        "c": "Distributive rule",
+        "d": "Transitive rule"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Does the system h(t) = exp([-1-2j]t) correspond to a stable system?",
+      "answers": {
+        "a": "Yes",
+        "b": " No",
+        "c": "Marginally Stable",
+        "d": "None of the mentioned"
       },
       "explanations": {
         "a": "Explanation 1  <a href='www.google.com'>here</a>",
@@ -19,12 +36,29 @@
       "difficulty": "beginner"
     },
     {
-      "question": "IC decoders are made with?",
+      "question": "What is the rule h*(x*c) = (x*h)*c called?",
       "answers": {
-        "a": "AND gate",
-        "b": "OR gate",
-        "c": "NAND gate",
-        "d": "XOR gate"
+        "a": "Commutativity rule",
+        "b": " Associativity rule",
+        "c": "Distributive rule",
+        "d": "Associativity and Commutativity rule"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "For an LTI discrete system to be stable, the square sum of the impulse response should be",
+      "answers": {
+        "a": "Integral multiple of 2pi",
+        "b": "Infinity",
+        "c": "Finite",
+        "d": "Zero"
       },
       "explanations": {
         "a": "Explanation 1  <a href='www.google.com'>here</a>",
