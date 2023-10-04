@@ -2,12 +2,46 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "Two systems with impulse responses h1 (t) and h2 (t) are connected in cascade. Then the overall impulse response of the cascaded system is given by",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Product of h1 (t) and h2 (t)",
+        "b": "Sum of h1 (t) and h2 (t)",
+        "c": "Convolution of h1 (t) and h2 (t)",
+        "d": "Subtraction of h2 (t) from h1 (t)"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Which system among the following is a time invariant system",
+      "answers": {
+        "a": "y(n) = n x(n)",
+        "b": "y(n) = x(n) – x(n-1)",
+        "c": "y(n) = x(-n)",
+        "d": "y(n) = x(n) cos 2nf"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Which of the following is a causal system?",
+      "answers": {
+        "a": "y(n) = 3x(n) – 2x(n-1)",
+        "b": "y(n) = 3x(n) + 2x(n+1)",
+        "c": "y(n) = 3x(n+1) + 2x(n-1)",
+        "d": "y(n) = 3x(n+1) + 2x(n-1) + x(n)"
       },
       "explanations": {
         "a": "Explanation 1  <a href='www.google.com'>here</a>",
@@ -19,12 +53,12 @@
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "Which of the following is a dynamic system?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "y(n) = y(n-1) + y(n+1)",
+        "b": "y(n) = y(n-1)",
+        "c": "y(n) = x(n)",
+        "d": "y(n) + y(n+1) + y(n+3) = 0"
       },
       "explanations": {
         "a": "Explanation 1  <a href='www.google.com'>here</a>",
@@ -32,7 +66,7 @@
         "c": "Explanation 2",
         "d": "Explanation 2"
       },
-      "correctAnswer": "c",
+      "correctAnswer": "a",
       "difficulty": "beginner"
     }
   ]
